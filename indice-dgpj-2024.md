@@ -1,0 +1,13 @@
+# Índice: Cláusulas contratuais abusivas, 2024
+
+7 decisões, de 2024-01-04 a 2024-06-22, por data. Cada linha: id, data, processo, relator, descritores (até 6) e o ficheiro da decisão.
+
+| id | data | processo | relator | descritores | caminho |
+| --- | --- | --- | --- | --- | --- |
+| dgpj-279-21-4t8pms-2024-01-04 | 2024-01-04 | 279/21.4T8PMS |  | ALTERAÇÃO DAS REGRAS DO RISCO | dgpj/2024/dgpj-279-21-4t8pms-2024-01-04.md |
+| dgpj-8546-21-0t8lsb-2024-01-04 | 2024-01-04 | 8546/21.0T8LSB |  | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE; PRINCÍPIO DA BOA FÉ; REPARTIÇÃO DO ÓNUS DA PROVA; IMPOSIÇÃO DO FORO COMPETENTE | dgpj/2024/dgpj-8546-21-0t8lsb-2024-01-04.md |
+| dgpj-2716-22-1t8avr-2024-05-06 | 2024-05-06 | 2716/22.1T8AVR | JOSÉ EUSÉBIO ALMEIDA | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE | dgpj/2024/dgpj-2716-22-1t8avr-2024-05-06.md |
+| dgpj-2717-22-0t8avr-2024-05-07 | 2024-05-07 | 2717/22.0T8AVR | ANABELA ANDRADE MIRANDA | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE; LIMITAÇÃO DE OBRIGAÇÕES ASSUMIDAS | dgpj/2024/dgpj-2717-22-0t8avr-2024-05-07.md |
+| dgpj-8166-23-5t8vng-2024-05-29 | 2024-05-29 | 8166/23.5T8VNG |  | LIMITAÇÃO DE OBRIGAÇÕES ASSUMIDAS | dgpj/2024/dgpj-8166-23-5t8vng-2024-05-29.md |
+| dgpj-2719-22-6t8avr-2024-06-18 | 2024-06-18 | 2719/22.6T8AVR | ANABELA MIRANDA | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE | dgpj/2024/dgpj-2719-22-6t8avr-2024-06-18.md |
+| dgpj-264-24-4t8mnc-2024-06-22 | 2024-06-22 | 264/24.4T8MNC |  | CLÁUSULAS EXCLUÍDAS DOS CONTRATOS SINGULARES; CONDIÇÕES DE DENÚNCIA DO CONTRATO | dgpj/2024/dgpj-264-24-4t8mnc-2024-06-22.md |

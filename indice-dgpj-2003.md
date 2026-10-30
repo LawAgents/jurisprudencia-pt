@@ -1,0 +1,13 @@
+# Índice: Cláusulas contratuais abusivas, 2003
+
+7 decisões, de 2003-01-20 a 2003-12-16, por data. Cada linha: id, data, processo, relator, descritores (até 6) e o ficheiro da decisão.
+
+| id | data | processo | relator | descritores | caminho |
+| --- | --- | --- | --- | --- | --- |
+| dgpj-4239-99-2003-01-20 | 2003-01-20 | 4239/99 | SANTOS MARTINS | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE | dgpj/2003/dgpj-4239-99-2003-01-20.md |
+| dgpj-529-1997-2003-02-03 | 2003-02-03 | 529/1997 |  | CLÁUSULAS PENAIS DESPROPORCIONADAS; CONDIÇÕES DE DENÚNCIA DO CONTRATO | dgpj/2003/dgpj-529-1997-2003-02-03.md |
+| dgpj-47-1999-2003-05-15 | 2003-05-15 | 47/1999 | LÚCIA DE SOUSA | ALTERAÇÃO DAS REGRAS DO RISCO; REPARTIÇÃO DO ÓNUS DA PROVA; IMPOSIÇÃO DE FICÇÕES; IMPOSIÇÃO DO FORO COMPETENTE | dgpj/2003/dgpj-47-1999-2003-05-15.md |
+| dgpj-13-03-otcgmr-2003-05-19 | 2003-05-19 | 13/03.OTCGMR |  | IMPOSIÇÃO DO FORO COMPETENTE | dgpj/2003/dgpj-13-03-otcgmr-2003-05-19.md |
+| dgpj-488-1997-2003-06-26 | 2003-06-26 | 488/1997 | - | CONDIÇÕES DE DENÚNCIA DO CONTRATO; CLÁUSULAS PENAIS DESPROPORCIONADAS | dgpj/2003/dgpj-488-1997-2003-06-26.md |
+| dgpj-2840-1997-2003-11-13 | 2003-11-13 | 2840/1997 | - | ALTERAÇÃO DAS REGRAS DO RISCO | dgpj/2003/dgpj-2840-1997-2003-11-13.md |
+| dgpj-462-97-2003-12-16 | 2003-12-16 | 462/97 | PIMENTEL MARQUES | CONDIÇÕES DE DENÚNCIA DO CONTRATO; CLÁUSULAS PENAIS DESPROPORCIONADAS | dgpj/2003/dgpj-462-97-2003-12-16.md |

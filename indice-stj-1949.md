@@ -1,0 +1,10 @@
+# Índice: Supremo Tribunal de Justiça, 1949
+
+4 decisões, de 1949-05-18 a 1949-07-12, por data. Cada linha: id, data, processo, relator, descritores (até 6) e o ficheiro da decisão.
+
+| id | data | processo | relator | descritores | caminho |
+| --- | --- | --- | --- | --- | --- |
+| stj-053441-1949-05-18 | 1949-05-18 | 053441 | ABREU COUTINHO | RECURSO; ALEGAÇÕES; PRAZO; ADVOGADO; EXAME; PROCESSO | stj/1949/stj-053441-1949-05-18.md |
+| stj-053597-1949-05-18 | 1949-05-18 | 053597 | ARTUR RIBEIRO | ARRENDAMENTO; SUBLOCAÇÃO; RENDA; APLICAÇÃO DA LEI NO TEMPO; UNIFORMIZAÇÃO DE JURISPRUDÊNCIA | stj/1949/stj-053597-1949-05-18.md |
+| stj-053897-1949-05-18 | 1949-05-18 | 053897 | ARTUR RIBEIRO | RECURSO; ALEGAÇÕES; CONCLUSÕES; FALTA; UNIFORMIZAÇÃO DE JURISPRUDÊNCIA | stj/1949/stj-053897-1949-05-18.md |
+| stj-026855-1949-07-12 | 1949-07-12 | 026855 | ROBERTO MARTINS | REINCIDENCIA; HOMICIDIO VOLUNTARIO; OFENSAS CORPORAIS VOLUNTARIAS; NATUREZA; FIXAÇÃO DE JURISPRUDÊNCIA | stj/1949/stj-026855-1949-07-12.md |

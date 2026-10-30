@@ -1,0 +1,25 @@
+---
+id: "trl-121-08-1telsb-l1-3-segunda-parte-2021-06-02"
+title: "Tribunal da Relação de Lisboa, processo 121/08.1TELSB.L1-3 (SEGUNDA PARTE), 2021-06-02"
+tribunal: "trl"
+processo: "121/08.1TELSB.L1-3 (SEGUNDA PARTE)"
+relator: "MARIA PERQUILHAS"
+data: 2021-06-02
+votacao: "UNANIMIDADE"
+meio_processual: "RECURSO PENAL"
+decisao: "- JULGAR NÃO PROVIDOS OS RECURSOS INTERPOSTOS PELOS ARGUIDOS E PELO MP, CONFIRMANDO-SE NA ÍNTEGRA O ACÓRDÃO RECORRIDO NA PARTE CRIMINAL; B) RECURSOS RELATIVOS À RESPONSABILIDADE CIVIL DECORRENTE DA PRÁTICA DE ACTOS ILÍCITOS: - JULGAR NÃO PROVIDOS OS RECURSOS APRESENTADOS PELOS ARGUIDOS, DEVENDO, CONTUDO, SER TOMADO EM CONSIDERAÇÃO NO QUANTUM INDEMNIZATÓRIO FIXADO, OS VALORES ENTRETANTO RECEBIDOS NOS TERMOS EXPOSTOS"
+descritores: ["NE BIS IN IDEM", "CASO JULGADO", "CRIME CONTINUADO", "CRIME DE FRAUDE FISCAL", "ATENUAÇÃO ESPECIAL DA PENA", "MEDIDA DA PENA", "SUSPENSÃO DA PENA", "INDEMNIZAÇÃO CIVIL PELA PRÁTICA DE ACTOS ILÍCITOS"]
+texto_integral: "S"
+source: "https://www.dgsi.pt/jtrl.nsf/33182fc732316039802565fa00497eec/e6d6c8bbfb1f70b2802589f100355bd8?OpenDocument"
+ecli: "ECLI:PT:TRL:2021:121.08.1TELSB.L1.3(SEGUNDAPARTE)"
+ecli_confirmed: true
+retrieved: 2026-10-27
+text_version: "sumário e metadados, sem texto integral"
+legal_notice: "Sem valor legal: só a decisão publicada pelo tribunal faz fé. Confirma na fonte (DGSI) antes de citar. Não substitui aconselhamento jurídico."
+---
+
+# Tribunal da Relação de Lisboa, processo 121/08.1TELSB.L1-3 (SEGUNDA PARTE), 2021-06-02
+
+## Sumário
+
+O SUMÁRIO ENCONTRA-SE NA PUBLICAÇÃO DA PRIMEIRA PARTE DO ACORDÃO

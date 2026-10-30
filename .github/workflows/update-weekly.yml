@@ -1,0 +1,178 @@
+name: Atualizacao semanal
+
+on:
+  schedule:
+    # Sunday 05:00 UTC. GitHub schedules in UTC only, so this is 05:00 in Lisbon in winter (WET)
+    # and 06:00 in summer (WEST). Scheduled runs can start a few minutes late when GitHub is busy.
+    - cron: '0 5 * * 0'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run everything but do not commit or push'
+        type: boolean
+        default: false
+      attempt:
+        description: 'Internal resume counter, leave at 1'
+        type: string
+        default: '1'
+
+# Only one update at a time. A second run waits instead of cancelling the first.
+concurrency:
+  group: jurisprudencia-pt-update
+  cancel-in-progress: false
+
+# Least privilege: contents to push the update commit, issues to report failures,
+# actions only to re-dispatch this workflow when the fetch time budget runs out.
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+defaults:
+  run:
+    # Explicit bash enables pipefail, so "cmd | tee" keeps the failing exit code.
+    shell: bash
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PYTHONUTF8: '1'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare scratch paths
+        run: |
+          mkdir -p "$RUNNER_TEMP/raw"
+          : > "$RUNNER_TEMP/update.log"
+          echo "RAW=$RUNNER_TEMP/raw" >> "$GITHUB_ENV"
+          echo "LOG=$RUNNER_TEMP/update.log" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Unit tests
+        run: python -m unittest discover -s scripts/tests 2>&1 | tee -a "$LOG"
+
+      # Raw cache (gzip: listings and decision pages) lives outside the repo working tree.
+      # restore-keys picks the most recent cache saved by any earlier run.
+      - name: Restore raw cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/raw
+          key: jur-raw-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            jur-raw-
+
+      - name: Run update
+        id: update
+        run: |
+          set +e
+          python scripts/run_update.py --mode weekly --raw "$RAW" --repo "$GITHUB_WORKSPACE" --budget-seconds 18000 --workers 4 --convert-workers 2 2>&1 | tee -a "$LOG"
+          rc=${PIPESTATUS[0]}
+          set -e
+          changed=$(grep -E '^CHANGED=' "$LOG" | tail -n 1 | cut -d= -f2 || true)
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+          echo "has_changes=${changed:-false}" >> "$GITHUB_OUTPUT"
+          # 0 = ready to commit, 2 = fetch budget reached (resume); anything else is a failure
+          case "$rc" in
+            0|2) ;;
+            *) echo "::error::run_update.py exited with code $rc"; exit "$rc" ;;
+          esac
+
+      # Saved even on exit 2 or failure, so the next run resumes from it.
+      - name: Save raw cache
+        if: always()
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/raw
+          key: jur-raw-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Size gate (1 GiB limit)
+        if: steps.update.outputs.rc == '0' && steps.update.outputs.has_changes == 'true'
+        run: python scripts/check_size.py --repo "$GITHUB_WORKSPACE" 2>&1 | tee -a "$LOG"
+
+      - name: Statistics (COBERTURA.md and estatisticas.html)
+        if: steps.update.outputs.rc == '0' && steps.update.outputs.has_changes == 'true'
+        run: python -I scripts/estatisticas.py --repo "$GITHUB_WORKSPACE" --name "Jurisprudência portuguesa (DGSI)" --excluded "$RAW/excluded.json" 2>&1 | tee -a "$LOG"
+
+      - name: Commit and push
+        if: steps.update.outputs.rc == '0' && steps.update.outputs.has_changes == 'true'
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo "::warning::CHANGED=true but nothing to commit"
+            exit 0
+          fi
+          re='^(stj|sta|tc|conflitos|trp|trl|trc|trg|tre|tcas|tcan|jp|dgpj)/.*\.md$'
+          n=$(git diff --cached --name-only --no-renames | grep -Ec "$re" || true)
+          msg="Atualizacao semanal $(TZ=Europe/Lisbon date +%F): $n decisoes"
+          git commit -m "$msg"
+          git show --shortstat --oneline HEAD
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "Dry run: not pushing. Would have committed: $msg"
+            exit 0
+          fi
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      # Fetch budget reached: nothing was committed, start the same workflow again.
+      - name: Resume with a new run
+        if: steps.update.outputs.rc == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          ATTEMPT: ${{ inputs.attempt }}
+        run: |
+          next=$(( ${ATTEMPT:-1} + 1 ))
+          if [ "$next" -gt 10 ]; then
+            echo "::error::Gave up after 10 resume attempts"
+            exit 1
+          fi
+          gh workflow run update-weekly.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
+            -f dry_run="${DRY_RUN:-false}" -f attempt="$next"
+
+      # No commit happened on failure: report it as an issue (GitHub emails the owner).
+      - name: Open issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WORKFLOW: ${{ github.workflow }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          body="$RUNNER_TEMP/issue.md"
+          {
+            echo "A execução **$WORKFLOW** falhou. Não foi feito nenhum commit: a última versão publicada mantém-se."
+            echo
+            echo "Execução: $RUN_URL"
+            echo
+            echo "Fim do registo:"
+            echo
+            echo '~~~~'
+            if [ -f "$RUNNER_TEMP/update.log" ]; then tail -n 80 "$RUNNER_TEMP/update.log" | tail -c 20000; else echo '(sem registo)'; fi
+            echo '~~~~'
+            if [ -f "$RUNNER_TEMP/raw/errors.json" ]; then
+              echo
+              echo "Conteúdo de errors.json:"
+              echo
+              echo '~~~~json'
+              head -c 30000 "$RUNNER_TEMP/raw/errors.json"
+              echo
+              echo '~~~~'
+            fi
+          } > "$body"
+          gh label create update-failed --repo "$GITHUB_REPOSITORY" --color B60205 \
+            --description 'Atualização automática falhada' --force || true
+          gh issue create --repo "$GITHUB_REPOSITORY" --label update-failed \
+            --title "$(TZ=Europe/Lisbon date +%F) - $WORKFLOW falhou" --body-file "$body"

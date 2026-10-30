@@ -1,0 +1,38 @@
+name: Testes
+
+# pull_request runs with a read-only token and no secrets, so running PR code here is safe.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PYTHONUTF8: '1'
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          for f in requirements.txt scripts/requirements.txt; do
+            if [ -f "$f" ]; then pip install -r "$f"; fi
+          done
+
+      - name: Unit tests
+        run: python -m unittest discover -s scripts/tests

@@ -1,0 +1,33 @@
+---
+id: "trl-5-20-5yqstr-l1-picrs-2024-11-27"
+title: "Tribunal da Relação de Lisboa, processo 5/20.5YQSTR.L1-PICRS, 2024-11-27"
+tribunal: "trl"
+processo: "5/20.5YQSTR.L1-PICRS"
+relator: "BERNARDINO TAVARES"
+data: 2024-11-27
+votacao: "UNANIMIDADE"
+meio_processual: "APELAÇÃO"
+decisao: "PARCIALMENTE PROCEDENTE/IMPROCEDENTE"
+descritores: ["PRIVATE ENFORCEMENT", "CARTEL", "CAMIÕES", "PRESCRIÇÃO", "DANO", "ESTIMATIVA JUDICIAL", "JUROS DE MORA"]
+texto_integral: "S"
+source: "https://www.dgsi.pt/jtrl.nsf/33182fc732316039802565fa00497eec/aa1913231395f6c980258c06003b4912?OpenDocument"
+ecli: "ECLI:PT:TRL:2024:5.20.5YQSTR.L1.PICRS"
+ecli_confirmed: true
+retrieved: 2026-10-27
+text_version: "sumário e metadados, sem texto integral"
+legal_notice: "Sem valor legal: só a decisão publicada pelo tribunal faz fé. Confirma na fonte (DGSI) antes de citar. Não substitui aconselhamento jurídico."
+---
+
+# Tribunal da Relação de Lisboa, processo 5/20.5YQSTR.L1-PICRS, 2024-11-27
+
+## Sumário
+
+- Na interpretação de uma decisão da Comissão da União Europeia, sancionadora de uma conduta violadora do art. 101.º do Tratado sobre o Funcionamento da União Europeia (TFUE), deve atender-se ao dispositivo e aos fundamentos, incluindo nestes os Considerandos da decisão necessários à compreensão do dispositivo;
+
+- No âmbito de uma ação de private enforcement decorrente de conduta violadora do artigo 101.º do TFUE, as ilações a que se chegou na Decisão da Comissão da EU (AT. 39824 – Trucks) sobre a mesma matéria, nomedamente em termos da existência de dano e nexo causal, podem ser válidas;
+
+- Não logrando a Autora provar a quantia exata do dano e concluindo o Tribunal, perante circunstâncias objetivas do caso, que tal determinação era praticamente impossível ou excessivamente difícil, poderá proceder ao cálculo do valor do dano com base em estimativa judicial, nos termos do artigo 9.º, n.º 2 da Lei n.º 23/2018, que transpôs o artigo 17.º, n.º 1 da Diretiva 2014/104/EU, sendo tal poder do Tribunal expressão do princípio da efetividade;
+
+- A aplicação do prazo de prescrição de 5 anos previsto no artigo 10.º da Diretiva e artigo 6.º, n.º 1, da Lei n.º 23/2018, depende de três condições: a interposição de uma ação de indemnização que tenha subjacente uma infração que cessou antes da entrada em vigor da Diretiva; que a ação tenha sido intentada após a entrada em vigor da respetiva Lei de Transposição; que o prazo de prescrição ao abrigo das regras nacionais aplicáveis ainda não se mostre esgotado na data do termo do prazo de transposição da diretiva (TJUE, C-267/20);
+
+- Em casos de private enforcement por conduta violadora do artigo 101.º do TFUE, os juros de mora contam-se a partir da ocorrência do dano, não sendo aplicável a prescrição prevista no artigo 310.º, al. d), do Código Civil.

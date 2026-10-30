@@ -1,0 +1,2 @@
+# Ids de decisões que o pipeline nunca publica (um por linha). Linhas a começar por # são comentários.
+# Ver "Pedido de retirada" no README.

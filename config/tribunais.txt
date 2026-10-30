@@ -1,0 +1,18 @@
+# id | nome | caminho no DGSI | sigla ECLI | lista
+# sigla ECLI: preenchida só nos tribunais em que o padrão do portal do CSM foi confirmado na medição (STJ e Relações).
+# Vazia = ecli_confirmed: false e nenhum ECLI no ficheiro.
+# lista: "recentes" = a atualização semanal lê só as primeiras páginas (ordem por data, mais recentes primeiro);
+#        "completa" = a lista não está ordenada por data, por isso a atualização semanal lê-a toda.
+stj | Supremo Tribunal de Justiça | /jstj.nsf | STJ | recentes
+sta | Supremo Tribunal Administrativo | /jsta.nsf | | recentes
+tc | Tribunal Constitucional (até 1998) | /atco1.nsf | | recentes
+conflitos | Tribunal dos Conflitos | /jcon.nsf | | recentes
+trp | Tribunal da Relação do Porto | /jtrp.nsf | TRP | recentes
+trl | Tribunal da Relação de Lisboa | /jtrl.nsf | TRL | recentes
+trc | Tribunal da Relação de Coimbra | /jtrc.nsf | TRC | recentes
+trg | Tribunal da Relação de Guimarães | /jtrg.nsf | TRG | recentes
+tre | Tribunal da Relação de Évora | /jtre.nsf | TRE | recentes
+tcas | Tribunal Central Administrativo Sul | /jtca.nsf | | recentes
+tcan | Tribunal Central Administrativo Norte | /jtcn.nsf | | recentes
+jp | Julgados de Paz | /cajp.nsf | | completa
+dgpj | Cláusulas contratuais abusivas | /jdgpj.nsf | | recentes

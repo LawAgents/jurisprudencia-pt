@@ -1,0 +1,68 @@
+name: Guarda de pull requests
+
+# Why pull_request_target and not pull_request: this workflow is a gate, so its
+# definition must come from the base branch. With pull_request, a PR could edit
+# this very file and switch the check off. pull_request_target always runs the
+# base-branch version. It is safe here because the job never checks out, builds
+# or executes anything from the PR: it only asks the API for the list of changed
+# file names, with a read-only token and no secrets. Keep it that way: do not
+# add a checkout of the PR head to this workflow.
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Only config, docs and README by pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+          ASSOCIATION: ${{ github.event.pull_request.author_association }}
+          REPO_OWNER: ${{ github.repository_owner }}
+        shell: bash
+        run: |
+          # The repo owner and the weekly publisher may touch anything.
+          # Everyone else: only config/**, docs/** and README.md. Decisions, indices, COBERTURA.md,
+          # estatisticas.html, scripts and workflows are generated or maintained by the owner.
+          shopt -s nocasematch
+          if [[ "$AUTHOR" == "$REPO_OWNER" || "$ASSOCIATION" == "OWNER" || "$AUTHOR" == "github-actions[bot]" ]]; then
+            echo "Autor autorizado ($AUTHOR): sem restrições."
+            exit 0
+          fi
+          shopt -u nocasematch
+
+          allowed='^(config/.*|docs/.*|README\.md)$'
+
+          # previous_filename covers renames away from a protected path.
+          files=$(gh api --paginate "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER/files" \
+            --jq '.[] | .filename, (.previous_filename // empty)')
+          blocked=$(printf '%s\n' "$files" | grep -Ev "$allowed" | grep -v '^$' | sort -u || true)
+
+          if [ -z "$blocked" ]; then
+            echo "Só foram alterados config/, docs/ ou README.md."
+            exit 0
+          fi
+
+          list=$(printf '%s\n' "$blocked" | sed -n '1,20p' | sed 's/^/- /')
+          {
+            echo "### Pull request recusado"
+            echo
+            echo "As decisões, os índices e as estatísticas são gerados automaticamente a partir do DGSI e não aceitam edições à mão."
+            echo
+            echo "Ficheiros afetados (máximo 20 listados):"
+            echo
+            echo "$list"
+            echo
+            echo "Para corrigir uma decisão, abre uma issue com o número do processo. Para pedir a retirada de uma decisão, abre uma issue com o número do processo (resposta em 72 horas)."
+            echo "Só são aceites pull requests para config/, docs/ e README.md."
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::error title=Ficheiro que não aceita pull requests::Este pull request altera ficheiros que são gerados ou mantidos pelo dono do repositório. Só são aceites pull requests para config/, docs/ e README.md. Para corrigir ou retirar uma decisão, abre uma issue com o número do processo."
+          exit 1

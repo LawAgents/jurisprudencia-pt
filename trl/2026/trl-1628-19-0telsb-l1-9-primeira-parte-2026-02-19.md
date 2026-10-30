@@ -1,0 +1,111 @@
+---
+id: "trl-1628-19-0telsb-l1-9-primeira-parte-2026-02-19"
+title: "Tribunal da Relação de Lisboa, processo 1628/19.0TELSB.L1-9 (PRIMEIRA PARTE), 2026-02-19"
+tribunal: "trl"
+processo: "1628/19.0TELSB.L1-9 (PRIMEIRA PARTE)"
+relator: "ANA MARISA ARNÊDO"
+data: 2026-02-19
+votacao: "MAIORIA COM * VOT VENC"
+meio_processual: "RECURSO PENAL"
+decisao: "PROVIDO PARCIALMENTE"
+descritores: ["COMPETÊNCIA DO TRIBUNAL", "TRIBUNAL CENTRAL DE INSTRUÇÃO CRIMINAL", "INQUIRIÇÃO DE TESTEMUNHA", "ESTRANGEIRO", "TRADUÇÃO", "ACÓRDÃO", "PROVA DIGITAL", "TRADUÇÃO DE DOCUMENTOS", "VIOLAÇÃO", "PRINCÍPIO DO CONTRADITÓRIO", "NULIDADE DO ACÓRDÃO"]
+texto_integral: "S"
+source: "https://www.dgsi.pt/jtrl.nsf/33182fc732316039802565fa00497eec/d347856d87a16d7f80258e1a003ef18b?OpenDocument"
+ecli: "ECLI:PT:TRL:2026:1628.19.0TELSB.L1.9(PRIMEIRAPARTE)"
+ecli_confirmed: true
+retrieved: 2026-10-27
+text_version: "sumário e metadados, sem texto integral"
+legal_notice: "Sem valor legal: só a decisão publicada pelo tribunal faz fé. Confirma na fonte (DGSI) antes de citar. Não substitui aconselhamento jurídico."
+---
+
+# Tribunal da Relação de Lisboa, processo 1628/19.0TELSB.L1-9 (PRIMEIRA PARTE), 2026-02-19
+
+## Sumário
+
+(Sumário da responsabilidade da Relatora)
+
+I. O recorrente insurge-se contra o despacho recorrido por considerar, em síntese, que a competência para a prática de actos jurisdicionais sempre seria do Tribunal Central de Instrução Criminal. Em suma, invoca que: os factos foram praticados nas áreas da competência dos Tribunais da Relação do Porto e de Lisboa; mostram-se reunidos os requisitos a que alude o art. 120º, n.º 1 da Lei da Organização do Sistema Judiciário (Lei n.º 62/2013, de 26/8); o art. 6º da Lei n.º 112/2019, de 19/9 não resolve a concreta situação de dispersão territorial e que sempre seria subsidiariamente de aplicar o critério do art. 28º, al. c) do C.P.P.
+
+II. Na situação em crise constata-se, desde logo, que o arguido/recorrente reclama in casu a competência do Tribunal Central de Instrução Criminal, para a prática dos actos jurisdicionais, com amparo no objecto que só ulteriormente - na fase de encerramento do inquérito - se definiu com a prolação da acusação, quando o que verdadeiramente importava é que tivesse indicado que em sede de inquérito, a dado passo, já era concretamente conhecida a dispersão territorial da actividade delituosa também pela área de competência do Tribunal da Relação de Lisboa.
+
+III. À mingua de qualquer indicação por parte do recorrente, do compulso dos autos não se vislumbra que, designadamente, aquando da prática de actos jurisdicionais atinentes à realização de intercepções telefónicas e de buscas domiciliárias, e/ou do despacho de apresentação para primeiro interrogatório judicial de arguidos detidos, resultasse indiciada, já então, a dispersão territorial da actividade delituosa igualmente pela área de Lisboa, que veio posteriormente a ser vertida na peça acusatória.
+
+IV. Inexistindo quaisquer elementos que indiquem que já na fase de inquérito, aquando da prática de algum dos actos jurisdicionais, se indiciava que a actividade delituosa teria ocorrido, concomitantemente, nas áreas do Tribunal da Relação do Porto e de Lisboa, mostra-se necessariamente prejudicado o (restante) argumentário aduzido pelo recorrente, que pressupõe a competência concorrente, quer na vertente da invocada incompetência material (art. 120.º, n.º 1 da LOSJ) quer na óptica da veiculada incompetência territorial.
+
+V. Não obstante, mesmo que assim não fosse, sempre se acrescentará, no espectro agora apenas da (in)competência territorial, que, nas concretas circunstâncias, ter-se-ia sempre de concluir que a notícia do crime ocorreu na área do Porto e não em Lisboa.
+
+VI. A matéria factual objecto dos depoimentos, no vasto paradigma delituoso narrado na acusação (e corroborado na pronúncia), não é essencial ou indispensável para a boa decisão da causa, antes é meramente lateral.
+
+VII. Sopesadas, ainda, a especial complexidade e a natureza urgente dos autos, nas preditas circunstâncias, o indeferimento da expedição da DEI para a inquirição das indicadas testemunhas não constitui compressão e muito menos significativa do direito de defesa do recorrente.
+
+VIII. Se é certo que o arguido esteve presente na leitura do acórdão, efectuada por súmula, que lhe foi então traduzida pelo intérprete presente, não é de olvidar que, por requerimento apresentado, ainda longe do términus do prazo de recurso, o mesmo veio aos autos reclamar o direito à tradução escrita e integral do acórdão.
+
+IX. Ante o requerimento apresentado, devidamente ancorado na complexidade e extensão do processo e do acórdão prolatado, sob pena de se estar a colocar em crise a equidade do processo, na óptica da putativa violação dos direitos de defesa deste arguido/recorrente, concretamente o direito ao recurso, não se vislumbra que, in casu, a tradução oral da súmula do acórdão seja normativamente consentida.
+
+X. «(…) a tradução oral, ou o resumo oral, dos documentos essenciais, em vez de uma tradução escrita, é admitida pela Dir. (UE) 2010/64 (art. 3.º/7), contudo, tem um caráter excecional e sob condição sine quo non de não prejudicar a equidade do processo. Para JÚLIO BARBOSA E SILVA (2018, p. 27), esta "excepção à regra poderá justificar-se, por exemplo, em casos manifestamente simples, em que estejam em causa factos facilmente apreensíveis e evidentes, sem prova relevante ou abundante (como será o caso de uma condução em estado de embriaguez ou condução sem habilitação legal), permitindo assim e também uma relevante contenção de custos inerentes à tradução"».
+
+XI. A falta da requerida tradução escrita e integral do acórdão redundará em irregularidade, mas de conhecimento e declaração oficiosas pelo Tribunal ad quem, já que está em causa situação susceptível de afectar direitos fundamentais do arguido/recorrente.
+
+XII. O que decorre da facticidade narrada na acusação (mantida no despacho de pronúncia) é que foi emitida pelas empresas sediadas em Portugal facturação - falsa - que pretendia fazer crer que os pressupostos de que dependia a isenção de IVA em Portugal, a que alude o art. 8.º, n.º 3, do Regime do IVA nas Transacções Intracomunitárias, se verificavam, o que não correspondia à verdade.
+
+XIII. Em face da natureza do crime de fraude fiscal, do momento e local da sua consumação, ante a materialidade narrada na acusação, mantida no despacho de pronúncia, não se vislumbra que esteja em crise a competência dos tribunais portugueses para o julgamento do crime de fraude fiscal.
+
+XIV. O recorrente invoca genericamente a falta de acompanhamento/controlo por parte do Juiz de Instrução, a violação da Lei n.º 109/2009, de 15 de Setembro (Lei do Cibercrime) e concretamente o regime previsto no art. 17º da predita Lei.
+
+XV. A alusão ao art. 17º, nas descritas circunstâncias - em que não há qualquer indício que as fotografias, vídeos e outros dados a que se refere tivessem sido extraídos de correio electrónico ou registo de comunicação de natureza semelhante - não tem cabimento.
+
+XVI. Subjacente ao regime estabelecido no art. 17º da Lei n.º 109/2009, de 15 de Setembro, em que é o Juiz de Instrução quem em primeira mão toma conhecimento do conteúdo do resultado da apreensão e quem determina a junção aos autos daquele que se mostrar relevante para a investigação, está a equiparação das mensagens de correio electrónico ou registos de comunicações de natureza semelhante àquele que se mostra determinado para a apreensão de correspondência, conforme art. 179º do C.P.P.
+
+XVII. A situação em análise também não é subsumível ao regime previsto no art. 16º, n.º 1 e 3 da Lei n.º 109/2009, de 15 de Setembro, atinente à apreensão dosdados ou documentos informáticos cujo conteúdo seja susceptível de revelar dados pessoais ou íntimos, pois que a tutela acrescida a reclamar apresentação ao Juiz de Instrução para ponderação da junção aos autos tendo em conta os interesses do caso concreto, pressupõe que tais elementos sejam necessários à produção de prova, o que, incontroversamente, não se verificava.
+
+XVIII. Os meios intrusivos de recolha de prova consubstanciam, invariavelmente, a compressão de direitos fundamentais, designadamente o direito ao respeito da vida privada e familiar. Tal compressão surge inequivocamente maximizada nos casos em que, como ocorreu no âmbito deste processo, se procedeu à apreensão dos próprios equipamentos/suportes, designadamente telemóveis e computadores dos visados, postergando-se a pesquisa e apreensão propriamente dita dos dados informáticos para momento ulterior ao das buscas.
+
+XIX. A equacionada violação do direito à privacidade, a título de danos colaterais, decorrente única e exclusivamente do modo como foi obtida a prova digital, não conduz, quer à luz do direito nacional, quer à luz do direito internacional, a qualquer veredicto de nulidade/proibição de prova.
+
+XX. A tradução de documentos escritos em língua estrangeira não é obrigatória, apenas se ditando quando necessária, conforme resulta do disposto nos art. 92º, n.º 10 e 166º, n.º 1 ambos do C.P.P.
+
+XXI. Do compulso dos autos não resulta que o arguido/recorrente, em algum momento, tenha no Tribunal a quo invocado a necessidade de tradução de qualquer documento e/ou a nulidade decorrente da falta de tradução.
+
+XXII. À míngua da exigida especificação, não é possível a este Tribunal ad quem aquilatar da necessidade de tradução (quer dos documentos, quer das transcrições e citações), sendo certo que, mesmo a verificar-se tal necessidade, estando em causa nulidade dependente de arguição sempre a mesma se teria, pelo menos na parte atinente à tradução dos documentos, por sanada, pois que não atempadamente arguida.
+
+XXIII. Às recorrentes, em sede de inquérito, foram arrestados bens, ao abrigo do preceituado no art. 228º do C.P.P. e a intervenção das mesmas no processo cingiu-se exclusivamente àquela fase processual e ao procedimento cautelar em que foram visadas.
+
+XXIV. A Procuradoria Europeia no pedido de declaração de perda formulado, conforme art. 110º e 111º do C.P., requereu que fosse declarado «perdido a favor do Estado o valor de 80.076.336.75€, correspondente à vantagem da atividade criminosa praticada pelos arguidos; fossem condenados «solidariamente, os 27 arguidos acusados a pagar ao Estado o referido montante» e, por fim, que «os montantes em numerários, os imóveis, os veículos, as joias e demais bens de luxo apreendidos e/ou arrestados nestes autos garantam, em caso de declaração de perda, parte do pagamento do valor em causa».
+
+XXV. Não obstante, o Tribunal a quo declarou a perda de todos os bens arrestados, incluindo, pois, e também, os arrestados às ditas recorrentes.
+
+XXVI. Ao princípio do contraditório, indiscutível pilar fundamental do processo penal, subjaz «o dever de ouvir qualquer sujeito do processo penal ou mero participante processual quando deva tomar-se qualquer decisão que pessoalmente o afecte».
+
+XXVII. As Sras. Juízas e o Sr. Juiz proferiram uma verdadeira decisão-surpresa ao terem declarado perdidos os bens que lhes foram arrestados, sem que lhes tivesse sido dada qualquer oportunidade de se pronunciarem quanto a tal possibilidade, a qual, realça-se, não havia sequer sido equacionada no pedido de perda apresentado pela Procuradoria Europeia.
+
+XXVIII. Sabendo-se que no regime geral das nulidades em processo penal vigora o princípio da tipicidade/legalidade (art. 118º, n.º 1 e 2, do C.P.P.), a violação do princípio do contraditório redundará em irregularidade de conhecimento e declaração oficiosas, pois que está em causa situação de particular gravidade, a afectar direitos fundamentais, concretamente o direito à propriedade privada.
+
+XXIX. Sendo o acórdão recorrido omisso na pronúncia de factos alegados na contestação, que putativamente revestem importância para a decisão, configurada está a nulidade insanável a que alude o art. 379º, n.º 1, al. a) do C.P.P.
+
+XXX. A respeito do ponto 5º do pedido de declaração de perda apresentado pela Procuradoria Europeia constata-se da fundamentação de facto que o Tribunal a quo não o deu como provado, nem como não provado.
+
+XXXI. Do mero compulso do pedido de perda apresentado, à partida, como resulta do cotejo dos pontos 4º e 5º do dito pedido, assume-se, de acordo com as várias soluções plausíveis de direito, como facto essencial para a decisão, relativamente à peticionada e declarada perda de vantagens.
+
+XXXII. Consabidamente, assiste-se a uma controvérsia jurisprudencial quanto à questão de saber contra quem deve ser declarada a perda de vantagens do crime, prevenida no art. 110º, n.º 1 do C.P. Em abreviada síntese, a questão centra-se em discernir se a perda pode ser determinada contra qualquer dos agentes/coautores ou somente contra quem efectivamente obteve vantagens do crime e na medida do concreto benefício.
+
+XXXIII. Não tendo o Tribunal a quo se pronunciado quanto ao alegado facto, tal omissão é também irremediavelmente reconduzível à nulidade insanável prevenida no art. 379º, n.º 1, al. a) do C.P.P.
+
+XXXIV. Apesar de o arguido ter efectuado na contestação apresentada uma escalpelização argumentativa quanto a parte da matéria indicada na acusação/pronúncia, com o declarado ensejo de demostrar juridicamente que mesmo a manter-se a narrativa acusatória apenas poderia ser condenado como cúmplice e não como coautor do crime de fraude fiscal e de, igualmente, na sua perspectiva ter enunciado e densificado as dificuldades in casu de preenchimento dos elementos do tipo legal de corrupção activa no sector privado, da fundamentação aduzida pelo Tribunal a quo não sobressai a mais ténue referência a alguma das indicadas controvérsias, cuja ponderação, ante a perspectiva da defesa, por referência à acusação que contesta, dentro do escopo do processo, indesmentivelmente se impunha, tanto mais num processo de reconhecida dificuldade e complexidade.
+
+XXXV. Outrossim, se é certo que os recorrentes foram condenados pela prática do crime de branqueamento, p. e p. pelo art. 368.º-A, n.º 1, al. j) e n.º 4, do C.P., em concurso aparente com número variado de crimes de falsificação, p. e p. pelo art. 256.º, n.º 1, alíneas a) e e) e 3 do mesmo Código, não é de descurar que inexiste, na subsunção jurídico-penal, qualquer tipo de fundamentação a respeito do afirmado concurso aparente com os preditos crimes de falsificação.
+
+XXXVI. Ainda que de forma abreviada, impunha-se que o Colectivo a quo, em consonância com o que decidiu, tivesse também procedido à alusão da facticidade assente susceptível de preencher simultaneamente os crimes de branqueamento e de falsificação (aliás, até em número diversificado entre os vários arguidos) e explicitado/motivado juridicamente o desfecho do concurso aparente.
+
+XXXVII. Inexiste concreta fundamentação de facto quanto à matéria alegada no pedido de declaração de perda e dada como provada. Em traços gerais, quanto à fundamentação do nexo de causalidade entre os bens apreendidos/arrestados e os crimes em apreço o Tribunal a quo quedou-se por afirmações meramente conclusivas. À parte da menção, ainda assim indefinida, a telemóveis e computadores, inexiste concretização alguma e/ou diferenciação designadamente dos bens que advêm dos proventos ilegitimamente obtidos com a actividade e daqueles que foram utilizados na execução dos factos e cruciais na sua prática.
+
+XXXVIII. Quanto aos objectos apreendidos, o Colectivo a quo decidiu a declaração de perda, em bloco, aduzindo apenas que por estarem «directamente relacionados com a prática dos crimes pelos quais os arguidos vão condenados autos, por serem resultado, fruto e/ou produto dos mesmos e/ou por terem sido essenciais e cruciais à execução dos factos acima descritos e dados como provados, nos termos dos Arts.º 109.º, n.º 1, 110.º, n.º 1, alínea b) e n.º 2 a n.º 4 e 111.º, n.º 2 alínea c), todos do Código Penal, em face da declaração de perda das vantagens obtidas pelos arguidos com a prática dos factos imputados, declaram-se perdidos a favor do Estado, os seguintes objectos, artigos, valores e quantias monetárias que se encontram apreendidos e devidamente identificados nos autos (…)», não obstante estarem em causa pressupostos legais distintos (arts.º 109.º, n.º 1, 110.º, n.º 1, alínea b) e n.º 2 a n.º 4 e 111.º, n.º 2 alínea c), todos do Código Penal) a reclamar destrinça e fundamentação tendencialmente individualizada, ou pelo menos segmentada, maxime em função do universo de visados, da variadíssima panóplia e do número muitíssimo elevado de objectos.
+
+XXXIX. As notas de rodapé são referências ou informações complementares que têm por fito clarificar e/ou complementar trechos do texto principal, ou seja, por natureza e definição, são ainda parte integrante do texto, no seu todo. Os factos dados como provados correspondem aos que constavam da acusação (seja no texto principal, seja nas notas de rodapé) e que foram mantidos no despacho de pronúncia prolatado. E por assim ser, é patente, por um lado, que não está em crise situação subsumível à nulidade do acórdão por condenação por factos diversos e, por outro, que não se verifica qualquer compressão do seu direito de defesa.
+
+XL. «O plano de reinserção social é solicitado aos serviços de reinserção social antes da decisão (n.º 1) ou após o trânsito da mesma (n.º 3). No primeiro caso, que pressupõe que o tribunal o solicitou àqueles serviços atempadamente, não há naturalmente lugar a decisão de homologação, já que o plano se integra ab initio na decisão condenatória, dela fazendo parte integrante (art. 375.º/1); na segunda hipótese, porventura a mais comum, porque o plano não foi atempadamente solicitado ou, sendo-o, não se mostra suficiente, em algum dos seus aspetos (…), ao fim último a que se dirige, que é o da reintegração do condenado em sociedade (art. 53º/1 CP), é solicitada a sua organização, ou complementação, aos serviços de reinserção social, com posterior submissão dele a decisão homologatória do tribunal».
+
+XLI. No que respeita à decisão de recolha de ADN: «(…) não estamos perante uma pena acessória, já que a recolha de amostras não tem nenhuma função coadjuvante da pena principal, nomeadamente fins de prevenção geral ou especial. Norteado pela necessidade de combate à criminalidade, e eficaz descoberta de crimes, o legislador entendeu que se revela adequado impor uma recolha de amostras nestes casos. Assim, verificados tais pressupostos, é obrigatório o juiz de julgamento, determinar essa recolha (…)».
+
+XLII. Não tem de existir «(…) um “pedido formulado” - mormente em sede de acusação, pelo Ministério Público ou assistente - no sentido de a mesma ser decretada, na eventualidade do preenchimento, a final, dos pressupostos objectivos do art. 8.º, n.º 2 (e n.º 3) da Lei n.º 5/2008» nem é aplicável doutrina idêntica à que resulta do Acórdão de Fixação de Jurisprudência do STJ n.º 7/2008, de 25 de Junho de 2008.
+
+XLIII. Do mesmo passo, no descrito paradigma legal, existindo uma reserva de intervenção judicial que se traduz na atribuição de competência ao juiz para a realização de acto não processual não se vislumbra que se mostre violado, por alguma forma, o indicado art. 219º, n.º 1 da C.R.P.

@@ -1,0 +1,9 @@
+# Índice: Supremo Tribunal de Justiça, 1959
+
+3 decisões, de 1959-05-27 a 1959-12-09, por data. Cada linha: id, data, processo, relator, descritores (até 6) e o ficheiro da decisão.
+
+| id | data | processo | relator | descritores | caminho |
+| --- | --- | --- | --- | --- | --- |
+| stj-029925-1959-05-27 | 1959-05-27 | 029925 | TOSCANO PESSOA | DESCONTO NA PENA DE PRISÃO ANTERIOR; DETENÇÃO; ULTRAMAR; INDIGENA; FIXAÇÃO DE JURISPRUDÊNCIA | stj/1959/stj-029925-1959-05-27.md |
+| stj-029959-1959-07-21 | 1959-07-21 | 029959 | MARIO CARDOSO | CONVOLAÇÃO; ULTRAMAR; CONDENAÇÃO POR FACTOS DIVERSOS; INDIGENA; FIXAÇÃO DE JURISPRUDÊNCIA | stj/1959/stj-029959-1959-07-21.md |
+| stj-029956-1959-12-09 | 1959-12-09 | 029956 | SILVA E SOUSA | ACIDENTE DE VIAÇÃO; INIBIÇÃO DA FACULDADE DE CONDUZIR; RESPONSABILIDADE CIVIL POR ACIDENTE DE VIAÇÃO; COMPARTICIPAÇÃO; CONCORRENCIA DE CULPAS; UNIFORMIZAÇÃO DE JURISPRUDÊNCIA | stj/1959/stj-029956-1959-12-09.md |

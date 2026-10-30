@@ -1,0 +1,14 @@
+# Índice: Cláusulas contratuais abusivas, 2004
+
+8 decisões, de 2004-01-06 a 2004-12-10, por data. Cada linha: id, data, processo, relator, descritores (até 6) e o ficheiro da decisão.
+
+| id | data | processo | relator | descritores | caminho |
+| --- | --- | --- | --- | --- | --- |
+| dgpj-51-2001-2004-01-06 | 2004-01-06 | 51/2001 |  | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE; REPARTIÇÃO DO ÓNUS DA PROVA | dgpj/2004/dgpj-51-2001-2004-01-06.md |
+| dgpj-1622-2002-2004-03-29 | 2004-03-29 | 1622/2002 |  | CONDIÇÕES DE DENÚNCIA DO CONTRATO; CONDIÇÕES DE CUMPRIMENTO DO CONTRATO; EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE | dgpj/2004/dgpj-1622-2002-2004-03-29.md |
+| dgpj-109-2000-2004-04-29 | 2004-04-29 | 109/2000 | - | PRINCÍPIO DA BOA FÉ | dgpj/2004/dgpj-109-2000-2004-04-29.md |
+| dgpj-8465-03-2yxlsb-2004-07-16 | 2004-07-16 | 8465/03.2YXLSB |  | CLÁUSULAS PENAIS DESPROPORCIONADAS | dgpj/2004/dgpj-8465-03-2yxlsb-2004-07-16.md |
+| dgpj-32069-03-otjprt-2004-09-28 | 2004-09-28 | 32069/03.OTJPRT | ALBERTO SOBRINHO | REPARTIÇÃO DO ÓNUS DA PROVA; ALTERAÇÃO DAS REGRAS DO RISCO | dgpj/2004/dgpj-32069-03-otjprt-2004-09-28.md |
+| dgpj-18956-03-oyxlsb-2004-11-15 | 2004-11-15 | 18956/03.OYXLSB |  | CLÁUSULAS PENAIS DESPROPORCIONADAS | dgpj/2004/dgpj-18956-03-oyxlsb-2004-11-15.md |
+| dgpj-314-2002-2004-12-07 | 2004-12-07 | 314/2002 | - | IMPOSIÇÃO DO FORO COMPETENTE; CLÁUSULAS PENAIS DESPROPORCIONADAS | dgpj/2004/dgpj-314-2002-2004-12-07.md |
+| dgpj-3982-03-7yxlsb-2004-12-10 | 2004-12-10 | 3982/03.7YXLSB |  | EXCLUSÃO OU LIMITAÇÃO DA RESPONSABILIDADE; PRINCÍPIO DA BOA FÉ | dgpj/2004/dgpj-3982-03-7yxlsb-2004-12-10.md |
